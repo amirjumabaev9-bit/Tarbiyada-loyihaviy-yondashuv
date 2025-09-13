@@ -2,29 +2,241 @@
 <html lang="uz">
 <head>
   <meta charset="UTF-8">
-  <title>Mening o‘quv sahifam</title>
+  <title>O‘quv materiallar</title>
   <style>
-    body { font-family: Arial; text-align: center; padding: 30px; }
-    h1 { color: darkblue; }
-    .card { 
-      border: 1px solid #ccc; 
-      padding: 20px; 
-      margin: 15px auto; 
-      width: 300px; 
-      border-radius: 10px; 
-      box-shadow: 0 2px 5px rgba(0,0,0,0.2);
+    body { font-family: Arial, sans-serif; margin: 0; padding: 0; background: #f4f4f9; }
+    header { background: darkblue; color: #fff; padding: 15px; text-align: center; }
+    nav { background: #333; padding: 10px; text-align: center; }
+    nav a {
+      color: #fff; text-decoration: none; margin: 0 10px; font-weight: bold;
     }
+    nav a:hover { text-decoration: underline; }
+    .content { padding: 20px; max-width: 900px; margin: auto; }
+    .lesson {
+      display: none;
+      background: #fff;
+      padding: 20px;
+      border-radius: 12px;
+      box-shadow: 0 3px 6px rgba(0,0,0,0.1);
+      margin-top: 20px;
+    }
+    .lesson.active { display: block; }
+    h2 { color: darkblue; }
   </style>
 </head>
 <body>
-  <h1>Assalomu alaykum, o‘quvchilar!</h1>
-  <div class="card">
-    <h2>1-dars materiali</h2>
-    <p><a href="https://drive.google.com/" target="_blank">Yuklab olish</a></p>
+
+<header>
+  <h1>O‘quv materiallar</h1>
+</header>
+
+<nav>
+  <a href="#" onclick="showLesson('lesson1')">1</a>
+  <a href="#" onclick="showLesson('lesson2')">2</a>
+  <a href="#" onclick="showLesson('lesson3')">3</a>
+  <a href="#" onclick="showLesson('lesson4')">4</a>
+  <a href="#" onclick="showLesson('lesson5')">5</a>
+  <a href="#" onclick="showLesson('lesson6')">6</a>
+  <a href="#" onclick="showLesson('lesson7')">7</a>
+  <a href="#" onclick="showLesson('lesson8')">8</a>
+</nav>
+
+<div class="content">
+  <div id="lesson1" class="lesson active">
+    <h2>1) Internet detektiv</h2>
+    <p>INTERNET DETEKTIV
+Savollar bering. Savol berish sizning qanchalik aqlli ekanligingizning aniq belgisidir. Veb-sayt mazmunini o'qiyotganingizda, har doim o'zingizga quyidagi savollarni berganingizga ishonch hosil qiling:
+-	Bu sayt muallifi kim?
+-	Muallif aytganlarini tasdiqlovchi dalillar bormi?
+-	Bu muallifni qo'llab-quvvatlaydigan yoki rozi bo'lmagan biron bir dalil bormi?
+-	Bu muallif tarafkashmi?
+Dalillarni tasdiqlang
+O'qigan hamma narsangiz bilan detektiv bo'ling. Javoblarning barchasi dalillarda. Quyidagilarni kuzatishda davom eting:
+-	tegishli nomlar
+-	sanalar
+-	muhim kalit so'zlar
+Ushbu o'rnatilgan ma'lumotni qidiruv tizimiga (masalan, Google) olib boring va ma'lumotlaringizni zaxiralash uchun boshqa ishonchli havolalarni toping.
+Ma'lumotlarni “uchburchak” qilish
+"Uchburchak" so'ziga qarang. Prefiks "uch" bo'lib, bu shuni anglatadiki, agar siz o'zingizning faktingizni zaxiralash uchun uchta manba topa olmasangiz, sizning faktingiz ishonchli yoki yo'qligini aniq bilolmaysiz. Shubha bilan o'qing!
+...</p>
   </div>
-  <div class="card">
-    <h2>2-dars video</h2>
-    <p><a href="https://youtube.com/" target="_blank">Ko‘rish</a></p>
+
+  <div id="lesson2" class="lesson">
+    <h2>2) Maqola yozish usuli</h2>
+    <p>MAQOLA YOZISH USULI
+Yozishni o‘rganishning bir qismi yaxshi hujjatning tarkibiy qismlarini tanishdan iborat. Quyidagi veb-saytlardan, masalan, kun.uz yoki daryo.uz saytlaridan biror maqola chop etib oling. Siz o‘zingiz xohlagan mavzuda bo‘lishi mumkin.
+Maqolangizni quyidagicha belgilang (annotatsiya qiling):
+◆ Kim  – doira ichiga oling.
+◆ Nima  – to‘rtburchak ichiga oling.
+◆ Qachon  – egri chiziq ostiga chizing.
+◆ Qayerda  – bulut shakli ichiga oling.
+◆ Nega yoki Qanday qilib – bu gaplarni kvadrat qavs [] ichiga oling.
+O‘zingizning maqolangizni yozayotganingizda, quyidagilarni yodingizda tuting:
+◆ Xolis bo‘ling: faqat faktlarga amal qiling.
+◆ Bir nuqtai nazarni tanlang va undan voz kechmang: nuqtai nazarni aniqlang va undan chetga chiqmang.
+◆ Soddalikni saqlang, quruq so’zdan qoching! Maqolalarida quruq badiiy ifodalar (metafora, o‘xshatish va h.k.) juda kam qo‘llaniladi.
+Yozadigan maqolangiz quyidagi elementlarga ega bo‘lishi kerak:
+Sarlavha
+Muallif ismi 
+Sarlavhali rasmi bo‘lgan joylashtirilgan rasm
+Maqolaning o‘zi.
+...</p>
   </div>
+
+  <div id="lesson3" class="lesson">
+    <h2>3) Og‘zaki nutqni taqdim etishda ritmni nazorat qilish</h2>
+    <p>Og‘zaki nutqni taqdim etishda o‘ylab ko‘rish kerak bo‘lgan ko‘plab narsalar mavjud: ovoz balandligi, talaffuz, postura va hokazo. Ammo o’quvchilarni chinakam qiynaydigan narsalardan biri bu ritmni nazorat qilishdir. Ya’ni, ular asabiylashganda tezlashtirish tendentsiyasiga ega bo‘ladi.
+Ajoyib ma’ruzachilar boshqalar oldida gapirishdan oldin iloji boricha yaxshi bo‘lish uchun mashq qilishadi. Axir, hamma ham asabiylashadi.
+Umumiy qoida shundan iboratki, bir betning to‘rtdan uch qismi taxminan bir daqiqalik nutqga to‘g‘ri keladi. Shunday qilib, yozayotganingizda va mashq qilayotganingizda, o‘zingizni qanday boshqarishni va taqdimot paytida tezlashmaslikni bilishingiz kerak.
+Quyida sizning taqdimotingizni soniya hisobiga rejalashtirishga yordam beradigan mashq keltirilgan.
+Birinchi marta: Nutqingizni to‘xtamasdan oxirigacha ayting. Bu yerda vaqtingizni belgilang: ______________
+Ikkinchi marta: Buni sekin harakatda bajaring. Nutqingizni bir marta juda sekin ayting. Dastlabki vaqtingizni ikki baravar oshirishga harakat qiling. To‘rt daqiqalik nutqingizni sakkiz daqiqa davom etishiga urining. Bu g‘alati tuyulishi mumkin, lekin tezlikni nazorat qilishga harakat qiling, chunki asabiyligingiz sizni nazorat qilmasin. Bu yerda vaqtingizni belgilang: ____________
+Uchinchi marta: Sekin nutqni aytganingizdan so‘ng, yana normalroq ritmga qaytishga urining. Biroq, uni sekinroq bajargach, har bir mashqda sekinlashishingiz kerak. Bu yerda vaqtingizni belgilang: _________________
+Har safar mashq qilganingizda, vaqtingizni shu yerda belgilang: _____________ 
+Muloqot qiling: Sizni tezlashtirishga nimalar sabab bo‘ldi?
+Sizni sekinroq bo‘lishingizga yordam berish uchun qanday usullardan foydalandingiz / foydalanishingiz mumkin?
+...</p>
+  </div>
+
+  <div id="lesson4" class="lesson">
+    <h2>4) Nutqni Baholash Mezonlari</h2>
+    <p>Nutqni Baholash Mezonlari
+Ovoz balandligi  – Men sizni xonaning orqa qismidan eshita olamanmi?
+1 2 3 4 5
+
+Urg'u – Sizning ovozingiz rang-barang va qiziqarli eshitiladimi yoki monoton va ravshan emasmi? Ohangingizda qanchalik ishtiyoq bor?
+1 2 3 4 5
+
+Turish/Uslub – Siz tebranyapsizmi? Nimagadir suyanib turibsizmi? Qo'llaringiz cho'ntaklarda yoki bezovtalanib gapirayapsizmi?
+1 2 3 4 5
+
+Birlik/Umumiy Taqdimot (Cohesiveness/Overall Presentation) – Siz vizual materiallar va matn bilan ancha mashq qilganmisiz? Tomoshabinlar oldida chiqish uchun kerakli kiyimda kiyganmisiz? Barcha so'zlarni to'g'ri talaffuz qilyapsizmi? Qayerda turish va vizual materiallarni qo'yish joyi haqida o'ylab ko'rganmisiz?
+1 2 3 4 5
+
+Ko'z aloqasi – Tomoshabinlar bilan aloqa o'rnatayapsizmi?
+1 2 3 4 5
+
+Boshqa _________________
+...</p>
+  </div>
+
+  <div id="lesson5" class="lesson">
+    <h2>5) Intervyuga tayyorgarlik ko‘rish bo‘yicha maslahatlar</h2>
+    <p>◆ Mavzu va intervyu beradigan shaxs haqida chuqur o‘rganib oling.
+◆ Kerakli materiallar bilan tayyorlangan holda keling (qalam, qog‘oz, planshet va iloji bo‘lsa, uning ovozini yozib olish usuli).
+◆ Oldindan tayyorlangan savollar ro‘yxatini tuzish yaxshi fikr. Eng yaxshi savollar - bu Google orqali javob topib bo‘lmaydigan savollardir. Siz murojaat qilayotgan shaxsning o‘ziga xos javob berishini istaysiz.
+◆ Ularning siz bilan uchrashish vaqti yoki istagi bor deb o‘ylamang. Muloyim bo‘ling va ularga sizga biroz vaqt ajratishlarini so‘rang va ular rejalashtirishi uchun taxminiy vaqt miqdorini ko‘rsating.
+◆ Mos kiyimda keling.
+◆ Vaqtida yetib keling.
+
+Intervyu olish bo‘yicha maslahatlar:
+◆ Ko‘z aloqasidan foydalaning.
+◆ Tayyorlagan savolingizni bering va javobni tinglang. Keyin javob asosida oldin tayyorlamagan savolingizni bering. Suhbatdoshingizga siz uni tinglayotganingizni ko‘rsating.
+◆ Salomlashganda va xayrlashganda ularning qo‘lini siqing.
+◆ Rahmat ayting.
+
+Intervyuni yakunlash bo‘yicha maslahatlar:
+◆ Intervyu tugagach, eslab qolgan hamma narsangiz haqida o‘ylab ko‘rishingiz mumkin bo‘lgan joyga boring. Kiyim-kechak, devor ranglari, stolidagi kitoblar va hokazo haqida eslatmalar yozing. Tafsilotlar yakuniy taqdimotingizga yordam beradi.
+◆ Rahmat xati yozing. Unda salom, intervyu haqida eslatma va ayniqsa foydali bo‘lgan bir nechta asosiy fikrlar mavjudligiga ishonch hosil qiling va to‘liq ismingizni imzolab yakunlang. Hatto telegramda bo‘lsa ham, rasmiy, akademik til va to‘g‘ri yozish qoidalaridan foydalanishni esda tuting!
+...</p>
+  </div>
+
+  <div id="lesson6" class="lesson">
+    <h2>6) "Internet Odobi" (Netetiket)</h2>
+    <p>"Internet odobi" (Netiquette) – bu onlayn muhitda qabul qilingan harakatlar qoidasidir. Bu virtual muloqot paytida hamma tomonidan kutiladigan odob-axloq me'yorlaridir.
+
+Uyda yoki maktabda video-konferensiya o'tkazishda ham, sinf xonasida kimningdir yozuvi yoki g'oyalariga javob berayotganda bo'lgani kabi, internet odobining o'z qoidalari mavjud.
+
+Boshqalarga hurmat va e'tibor bilan munosabatda bo'ling.
+
+Yomon so'zlardan foydalanmang: Yomon so'zlarning ishlatilishi sizning biror narsani yaxshi ifodalay olmasligingizni ko'rsatadi.
+
+G'iybat va yolg'on tarqatmang: Internetni g’iybat va yolg’on uchun emas, balki ma'lumot tarqatish uchun ishlating.
+
+Hamkorlik qiling va bilimingizni ulashing: Agar javob bilsangiz, oldinga chiqing va ulashing. Bir-biringizdan o'rganing. Internet aynan shuning uchun mavjud.
+
+Ishtirok etishdan oldin kuzatib boring: Video-konferensiyalar haqida gap ketganda, avval suhbatni tinglang va ohang yoki so'zlarni tanlashdan oldin o'zingizning muxlislaringiz va muhitingizni biling.
+
+Kechirimli bo'ling: Har kim vaqti-vaqti bilan noto'g'ri gapiradi, xato qiladi yoki hali o'zining onlayn ovozini mukammallashtirmagani uchun tasodifan kimnidir xafa qiladi. Kichik narsalarni hisobga olmang va kechirimli bo’ling.
+
+Boshqalarning diqqatini bo’lmang: Agar onlaynda mehmon bo'lsa va biz u kishining aytganlarini tinglayotgan bo'lsak, orqa fonda diqqatni bo’luvchi bo'lmang.
+
+Muhokamani o’zgartirmang. Mavzuda qoling.
+
+Suhbatga yangi narsa kiriting.
+
+Misollaringizni tegishli manbalar bilan: havolalar yoki boshqa resurslar bilan ko'rsating.
+...</p>
+  </div>
+
+  <div id="lesson7" class="lesson">
+    <h2>7) Taqdimotlar yaratish bo‘yicha qo‘llanma</h2>
+    <p>Odamlar og‘zaki taqdimotlarni berishda doimo o‘z nutqlarini vizual elementlar bilan boyitadilar. Vizual taqdimotlar materialingizga yana bir boy, rangbarang ma’lumot qo‘shishga yordam beradi. Ular, shuningdek, tomoshabinlaringizni jalb qilishga yordam beradi, shunda ular uzoqroq vaqt davomida siz va mavzuingizga e’tibor qaratadilar.
+
+Og‘zaki taqdimotingiz uchun vizual taqdimot yaratishga yordam beradigan ko‘plab turli usullar va dasturlar mavjud. PowerPoint, Prezi, yoki Google Presentations o’quvchilarga yuqori sifatli taqdimot dasturlaridan foydalanish imkoniyatini beruvchi bir nechta dasturlardir.
+
+Biroq, ajoyib vizual taqdimot yaratish uchun matn inshoningizning qismlarini oddiygina bir nechta slaydga nusxalab qo‘yish kifoya emas. Taqdimotingizni yaratish darajangizni oshirishga yordam beradigan ba’zi qoidalar mavjud.
+
+Katta matn bo’laklaridan qoching: matnlar insholar uchun, taqdimotlar uchun emas. Taqdimotingizga aytmoqchi bo‘lgan narsalaringizni qo‘ymang. Axir, tomoshabinlaringiz o‘qiy oladi va shunchaki nutqingiz matni bo‘lgan taqdimot tayyorlash vaqtni isrofdir.
+
+Shaxsiy eslatmalardan foydalanmang: yoki hech bo‘lmaganda ularni kamdan-kam ishlating. Taqdimotlar vizual elementlar, jadvallar, grafiklar, rasmlar va hokazolarni qo‘shish uchun, so‘zlar uchun emas. So‘zlar sizning og‘zingizdan chiqishi kerak, slayddan emas. Ekrandagi vizual element aytilayotgan narsani ta’kidlashi kerak, uning o‘rnini bosishi yoki eslatma bo‘lishi kerak emas.
+
+Doimo esda tutingki, siz sahnadasiz: tinglovchilarga qarang. Kuchli ko‘z aloqasini qiling va o‘z taqdimotingizga qarayverishga berilmang.
+
+Mashq qiling, mashq qiling, mashq qiling: sinf oldida birinchi marta bo‘lishingiz haqiqiy birinchi marta taqdimotingizni amalga oshirish bo‘lmasligi kerak. Materialingizni yod bilishingizga va taxminiy vaqtlaringizni bilish uchun etarli mashq qilganingizga ishonch hosil qiling. Shuningdek, barcha texnologiyalarni muddatingizdan oldin sinab ko‘ring, shunda agar kerak bo‘lsa, muammolarni hal qila olasiz.
+
+Dasturlardan eng yaxshi tarzda foydalaning: agar matn yoki rasmlaringizni harakatlantirishga yordam beradigan animatsiya usullari bo‘lsa, nega ulardan foydalanmaysiz? Biroq, bunga juda ko‘p ishonmang. Axir, bu tomoshabinlaringizni jalb qilish va vizual ta’kidlovchi vazifasini bajarish uchun mo‘ljallangan. Ammo taqdimotingiz dasturdan foydalanishsh haqidagi bilimlaringizni aks ettirishi kerak; masalan, agar Prezidan foydalanyotgan bo‘lsangiz, asosiy g‘oyangizni ifodalovchi va barcha slaydlaringizdan tashkil topgan "katta rasm" sifatida ishlatiladigan rasmga ega bo‘lishingizga ishonch hosil qiling. 
+
+Turli xil vizual elementlardan ko‘p foydalaning: asosiy mavzuingizni yoki dalillaringizni ta’kidlashning juda ko‘p usullari mavjud. Siz jadvallar, grafiklar va ma’lumotlarni namoyish etishingiz mumkin. So‘rov natijalaridan iqtiboslarni aylantirib ko‘rsatishingiz mumkin. Qisqa videolar kiritishingiz mumkin. Ro‘yxat cheksiz. Faqat matn bilan chegaralanib qolmang.
+
+Yakuniy taqdimotingizdan oldin fikr-mulohaza oling: oila oldida taqdimot bering. Do‘stlar oldida taqdimot bering. Eng muhimi, o‘zingiz oldingizda taqdimot bering. O‘zingizni taqdimot paytida yozib oling. Uni tomosha qiling va sinf oldida bo‘lganingizda yaxshilamoqchi bo‘lgan narsalaringizni yozib oling.
+...</p>
+  </div>
+
+  <div id="lesson8" class="lesson">
+    <h2>8) Paragraf qanday qilib to‘g‘ri yoziladi?</h2>
+    <p>Xayolingizda osmono‘par bino qurayotganingizni tasavvur qiling. Hamma narsa o‘z joyida bo‘lishi kerak: poydevor pastda, qavatlar ustma-ust, tom esa eng yuqorida. Xuddi shu qonuniyat paragraf yozishga ham tegishli. To‘g‘ri tuzilgan paragraf – bu bino qurishga o‘xshaydi.
+Savol javob formati paragrafi 4 qismdan iborat:
+Asosiy g‘oya (Tom) – Paragrafning birinchi jumlasi. Bu siz nima haqida yozyotganingizning kaliti. O‘quvchi aynan shu jumladan paragrafning mazmunini tushunishi kerak.
+Dalillar (Qavatlar) – Asosiy g‘oyangizni qo‘llab-quvvatlovchi faktlar. Bu iqtiboslar, raqamlar, statistikalar yoki boshqa ishonchli manbalar bo‘lishi mumkin.
+Sharh (Poydevor) – Sizning o‘z fikringiz. Dalillarni tahlil qilish, ularga izoh berish yoki o‘z tajrangizni ulashish.
+Xulosa (Eshik) – Paragrafni yakunlovchi va keyingisiga o‘tishga yordam beruvchi jumla.
+Misol:
+Maktabda smartfonlar: Foydali yoki zararli?
+Asosiy g‘oya:
+Maktablarda smartfonlardan foydalanish o‘quv jarayoniga ham yordam beradi, ham to‘siq bo‘ladi.
+Dalillar:
+So‘nggi tadqiqotlar shuni ko‘rsatadiki, dars vaqtida telefonda bo‘lgan o‘quvchilar 20% past natijalarga erishadi, lekin ayni paytda maxsus o‘quv dasturlari yordamida dars tayyorlaydiganlar esa 30% yuqori ball to‘playdi.
+Sharh:
+O‘ylaymanki, muammo telefonlarning o‘zida emas, balki ulardan qanday foydalanishimizdadir. Xuddi pichoq kabi - u bilan sabzavot ham chiqish mumkin, odam ham yaralash mumkin. Agar maktabda smartfonlardan faqat o‘quv maqsadlarida foydalanishni o‘rgatadigan maxsus dastur bo‘lsa, bu juda foydali bo‘lardi.
+Xulosa:
+Shuning uchun ham, smartfonlarni taqiqlash emas, balki to‘g‘ri foydalanishni o‘rgatish asosiy yechim bo‘ladi.
+
+Qiziqarli fakt:
+Aytishlaricha, ba'zi maktablarda "telefon parki" bor - bu maxsus qutiya dars vaqtida telefonlarni qo‘yishadi, tanaffusda olib ishlatishadi. Bu odat Singapur maktablarida juda mashhur!
+
+O‘quvchilar uchun maslahat:
+Agar darsda telefoningizni ishlatishga muyassar bo‘lsangiz, uni faqat:
+
+So‘zlik dasturi sifatida
+
+Kalkulyator vazifasida
+
+O‘quv videolarini ko‘rish uchun ishlating
+
+Eslab qoling: telefon sizning xizmatingizga xizmat qilishi kerak, siz unga emas! 📵➡️📚
+...</p>
+  </div>
+</div>
+
+<script>
+  function showLesson(id) {
+    // Barcha mavzularni yashirish
+    document.querySelectorAll('.lesson').forEach(el => el.classList.remove('active'));
+    // Tanlangan mavzuni ko‘rsatish
+    document.getElementById(id).classList.add('active');
+  }
+</script>
+
 </body>
 </html>
